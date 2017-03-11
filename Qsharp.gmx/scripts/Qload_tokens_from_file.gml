@@ -1,6 +1,6 @@
 var file = file_text_open_read(argument0);
 var str=ds_list_create();
-
+var l;
 while (!file_text_eof(file)){
     ds_list_add(str, file_text_readln(file));
 }

@@ -50,6 +50,9 @@ caret = 0 // caret position
 fillchar = "`" // used as filler character in input handling.
 filltext = string_repeat(fillchar, 10);
 
+dx=0;
+dy=0;
+
 Qinit();
 
 console_execute("/qvm_test")
@@ -165,10 +168,10 @@ ptext = string_replace_all(text, '#', '�')
 i = string_width(string_copy(ptext, 1, caret))
 h = string_height('\\')
 
-draw_text_box_ext(32,view_hview[0]-32,ptext,c_white,1,300)
+draw_text_box_ext(dx,dy,ptext,c_white,1,300)
 draw_set_colour(c_white);
 draw_set_alpha(1);
-draw_line(32 + i, view_hview[0]-32, 32 + i, view_hview[0]-32 + h)
+draw_line(dx + i, dy, dx + i, dy + h)
 
 // key handling:
 if (keyboard_check_pressed(vk_escape)) {chat_active=false; ptext='' exit;}
@@ -187,14 +190,14 @@ if chat_active  {
 
     
     for (i=0;i&lt;CONSOLE_VISISIBLE_LINES;i++) {
-        draw_text_box(32,view_hview[0]-32-20-i*20,chat[i],chat_color[i],1)
+        draw_text_box(dx,dy-20-i*20,chat[i],chat_color[i],1)
     }
 }
 else {
     for (i=0;i&lt;CONSOLE_VISISIBLE_LINES;i++)  {
         if chat_alpha[i]&lt;=0 {exit;} 
         else
-        {draw_text_box(32,view_hview[0]-32-20-i*20,chat[i],chat_color[i],chat_alpha[i])}
+        {draw_text_box(dx,dy-20-i*20,chat[i],chat_color[i],chat_alpha[i])}
     }
 }
 

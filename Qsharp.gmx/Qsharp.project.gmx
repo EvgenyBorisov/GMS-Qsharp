@@ -48,6 +48,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\Qtest.gml</script>
+    <script>scripts\Qexecute_string.gml</script>
     <scripts name="Qsharp">
       <script>scripts\Qinit.gml</script>
       <script>scripts\Qadd_operator.gml</script>
@@ -83,6 +84,10 @@
     <scripts name="Abstraction">
       <script>scripts\Qprint_to_console.gml</script>
       <script>scripts\Qprint_error_to_console.gml</script>
+      <script>scripts\Quser_init.gml</script>
+      <scripts name="Userscripts">
+        <script>scripts\Quscr_hello.gml</script>
+      </scripts>
     </scripts>
     <scripts name="Qscripts">
       <scripts name="Print">
@@ -105,7 +110,7 @@
   <rooms name="rooms">
     <room>rooms\rm_console</room>
   </rooms>
-  <constants number="36">
+  <constants number="37">
     <constant name="TP_VOID">9</constant>
     <constant name="CONSOLE_VISISIBLE_LINES">30</constant>
     <constant name="CONSOLE_LINES">50</constant>
@@ -142,6 +147,7 @@
     <constant name="FUNCTION_ARG3">7</constant>
     <constant name="FUNCTION_ARG4">8</constant>
     <constant name="FUNCTION_ARG5">9</constant>
+    <constant name="QVM">Qvm_create("Qvm",Qprint_to_console,Qprint_error_to_console)</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

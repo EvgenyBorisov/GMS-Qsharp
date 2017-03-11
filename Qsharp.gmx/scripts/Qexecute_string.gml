@@ -1,5 +1,5 @@
 ///Qtest(file);
-//var QVM=
+//var QVM=Qvm_create("Qvm",Qprint_to_console,Qprint_error_to_console);
 with QVM {
     
     
@@ -7,7 +7,7 @@ with QVM {
     var token,token_tp;
     
     
-    var tokens=Qload_tokens_from_file(argument0);
+    var tokens=Qload_tokens_from_string(argument0);
     var token_list=ds_list_find_value(tokens,0);
     var token_list_tp=ds_list_find_value(tokens,1);
     

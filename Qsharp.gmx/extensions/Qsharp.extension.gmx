@@ -40,18 +40,33 @@
     <Resource>Scripts\Qsharp\Translator\Qload_tokens_from_file.gml</Resource>
     <Resource>Scripts\Qsharp\Translator\Qload_tokens_from_string.gml</Resource>
     <Resource>Scripts\Qsharp\Translator\Qcreate_bytecode.gml</Resource>
+    <Resource>Scripts\Qsharp\Translator\Qparse</Resource>
+    <Resource>Scripts\Qsharp\Translator\Qfc_get_ind</Resource>
+    <Resource>Scripts\Qsharp\Translator\Qop_get_ind</Resource>
+    <Resource>Scripts\Qsharp\Translator\Qload_tokens_from_file</Resource>
+    <Resource>Scripts\Qsharp\Translator\Qload_tokens_from_string</Resource>
+    <Resource>Scripts\Qsharp\Translator\Qcreate_bytecode</Resource>
     <Resource>Scripts\console\console_execute.gml</Resource>
     <Resource>Scripts\console\console_write.gml</Resource>
+    <Resource>Scripts\console\console_execute</Resource>
+    <Resource>Scripts\console\console_write</Resource>
     <Resource>Scripts\Extensions\string\string_parse.gml</Resource>
     <Resource>Scripts\Extensions\string\string_parse_number.gml</Resource>
     <Resource>Scripts\Extensions\draw\draw_text_box.gml</Resource>
     <Resource>Scripts\Extensions\draw\draw_text_box_ext.gml</Resource>
     <Resource>Scripts\Abstraction\Qprint_to_console.gml</Resource>
     <Resource>Scripts\Abstraction\Qprint_error_to_console.gml</Resource>
+    <Resource>Scripts\Abstraction\Qprint_to_console</Resource>
+    <Resource>Scripts\Abstraction\Qprint_error_to_console</Resource>
+    <Resource>Scripts\Abstraction\Quser_init</Resource>
+    <Resource>Scripts\Abstraction\Userscripts\Quscr_hello</Resource>
     <Resource>Scripts\Qscripts\Print\Qscr_print.gml</Resource>
     <Resource>Scripts\Qscripts\Print\Qscr_print_error.gml</Resource>
+    <Resource>Scripts\Qscripts\Print\Qscr_print</Resource>
+    <Resource>Scripts\Qscripts\Print\Qscr_print_error</Resource>
     <Resource>Scripts\Qscripts\Math\Qscr_exp.gml</Resource>
     <Resource>Scripts\Qscripts\Math\Qscr_power.gml</Resource>
+    <Resource>Scripts\Qexecute_string</Resource>
     <Resource>Fonts\fnt_console</Resource>
     <Resource>Objects\console</Resource>
     <Resource>Objects\Qvm</Resource>
