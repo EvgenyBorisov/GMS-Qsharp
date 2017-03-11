@@ -39,7 +39,9 @@
       <filename>test.qs</filename>
     </datafile>
   </datafiles>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Qsharp</extension>
+  </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites"/>
   <backgrounds name="background"/>
@@ -101,7 +103,7 @@
     <object>objects\Qvm</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_console</room>
   </rooms>
   <constants number="36">
     <constant name="TP_VOID">9</constant>
