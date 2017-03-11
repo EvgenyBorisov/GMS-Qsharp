@@ -75,6 +75,7 @@
     <Resource>Rooms\rm_console</Resource>
     <Resource>Included Files\main.qs</Resource>
     <Resource>Included Files\test.qs</Resource>
+    <Resource>Included Files\constants.txt</Resource>
   </IncludedResources>
   <files/>
 </extension>
