@@ -1,0 +1,13 @@
+///Qadd_function(id,string,type,arg_count,script,arg0,arg1,arg2,arg3,arg4,arg5);
+FUNCTION[# argument0,FUNCTION_STRING ]=argument1;
+FUNCTION[# argument0,FUNCTION_TYPE ]=argument2;
+FUNCTION[# argument0, FUNCTION_ARG_COUNT]=argument3;
+FUNCTION[# argument0, FUNCTION_SCRIPT]=argument4;
+FUNCTION[# argument0, FUNCTION_ARG0]=argument5;
+FUNCTION[# argument0, FUNCTION_ARG1]=argument6;
+FUNCTION[# argument0, FUNCTION_ARG2]=argument7;
+FUNCTION[# argument0, FUNCTION_ARG3]=argument8;
+FUNCTION[# argument0, FUNCTION_ARG4]=argument9;
+FUNCTION[# argument0, FUNCTION_ARG5]=argument10;
+//OPERATOR[# argument0,OPERATOR_PRIORITY ]=argument3;
+//OPERATOR[# argument0,OPERATOR_ARG_COUNT ]=argument4;

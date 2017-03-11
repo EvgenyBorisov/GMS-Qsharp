@@ -1,0 +1,1 @@
+print(power(3,4));
