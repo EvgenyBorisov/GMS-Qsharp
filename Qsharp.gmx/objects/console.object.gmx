@@ -55,7 +55,7 @@ dy=0;
 
 Qinit();
 
-console_execute("/qvm_test")
+//console_execute("/qvm_test")
 </string>
           </argument>
         </arguments>
