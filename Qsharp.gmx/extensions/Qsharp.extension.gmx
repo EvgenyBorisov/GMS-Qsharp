@@ -52,6 +52,8 @@
     <Resource>Scripts\console\console_write</Resource>
     <Resource>Scripts\Extensions\string\string_parse.gml</Resource>
     <Resource>Scripts\Extensions\string\string_parse_number.gml</Resource>
+    <Resource>Scripts\Extensions\string\string_parse</Resource>
+    <Resource>Scripts\Extensions\string\string_parse_number</Resource>
     <Resource>Scripts\Extensions\draw\draw_text_box.gml</Resource>
     <Resource>Scripts\Extensions\draw\draw_text_box_ext.gml</Resource>
     <Resource>Scripts\Abstraction\Qprint_to_console.gml</Resource>

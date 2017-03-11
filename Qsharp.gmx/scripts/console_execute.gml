@@ -14,7 +14,8 @@ with (console){
       switch command[|0]{
              
              case '/qvm_test':
-             Qtest("test.qs");
+             //Qtest("test.qs");
+             Qexecute_string("test();");
              break;
             
              case '/mem_on':
