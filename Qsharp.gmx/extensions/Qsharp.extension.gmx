@@ -3,13 +3,11 @@
   <name>Qsharp</name>
   <version>0.0.1</version>
   <packageID></packageID>
-  <ProductID>F79C97955FD1AF4686EB4EF4EF90F0DB</ProductID>
+  <ProductID></ProductID>
   <date>11/03/17</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
   <helpfile></helpfile>
-  <androidProps>0</androidProps>
-  <iosProps>0</iosProps>
   <installdir></installdir>
   <classname></classname>
   <androidclassname></androidclassname>
@@ -25,6 +23,11 @@
   <gradleinject></gradleinject>
   <iosSystemFrameworks/>
   <iosThirdPartyFrameworks/>
+  <ConfigOptions>
+    <Config name="Default">
+      <CopyToMask>105554172285166</CopyToMask>
+    </Config>
+  </ConfigOptions>
   <androidPermissions/>
   <IncludedResources>
     <Resource>Scripts\Qtest</Resource>
@@ -34,6 +37,8 @@
     <Resource>Scripts\Qsharp\Qerror</Resource>
     <Resource>Scripts\Qsharp\Qvm\Qvm_create.gml</Resource>
     <Resource>Scripts\Qsharp\Qvm\Qvm_execute.gml</Resource>
+    <Resource>Scripts\Qsharp\Qvm\Qvm_create</Resource>
+    <Resource>Scripts\Qsharp\Qvm\Qvm_execute</Resource>
     <Resource>Scripts\Qsharp\Translator\Qparse.gml</Resource>
     <Resource>Scripts\Qsharp\Translator\Qfc_get_ind.gml</Resource>
     <Resource>Scripts\Qsharp\Translator\Qop_get_ind.gml</Resource>
@@ -56,6 +61,8 @@
     <Resource>Scripts\Extensions\string\string_parse_number</Resource>
     <Resource>Scripts\Extensions\draw\draw_text_box.gml</Resource>
     <Resource>Scripts\Extensions\draw\draw_text_box_ext.gml</Resource>
+    <Resource>Scripts\Extensions\draw\draw_text_box</Resource>
+    <Resource>Scripts\Extensions\draw\draw_text_box_ext</Resource>
     <Resource>Scripts\Abstraction\Qprint_to_console.gml</Resource>
     <Resource>Scripts\Abstraction\Qprint_error_to_console.gml</Resource>
     <Resource>Scripts\Abstraction\Qprint_to_console</Resource>
@@ -68,6 +75,8 @@
     <Resource>Scripts\Qscripts\Print\Qscr_print_error</Resource>
     <Resource>Scripts\Qscripts\Math\Qscr_exp.gml</Resource>
     <Resource>Scripts\Qscripts\Math\Qscr_power.gml</Resource>
+    <Resource>Scripts\Qscripts\Math\Qscr_exp</Resource>
+    <Resource>Scripts\Qscripts\Math\Qscr_power</Resource>
     <Resource>Scripts\Qexecute_string</Resource>
     <Resource>Fonts\fnt_console</Resource>
     <Resource>Objects\console</Resource>
